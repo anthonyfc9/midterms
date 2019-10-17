@@ -1,0 +1,202 @@
+body {
+  text-align: center;
+  background-color: #2a363b;
+}
+p{color:#2a363b;
+  font-family: 'Lato', sans-serif;}
+h1{color:whitesmoke;
+  font-family: 'Oleo Script', cursive;}
+h2{color:#2a363b;
+  font-family: 'Oleo Script', cursive;}
+h3{color:#2a363b;
+  font-family: 'Oleo Script', cursive;}
+.modal-body h1{color: #2a363b;}
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Oleo+Script&display=swap');
+
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    overflow-y: scroll;
+    height:85vh;
+    width: 85vw;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: #2a363b;
+    color: white;
+  }
+  
+  .modal-body {padding: 2px 16px;}
+  
+
+
+  .allShops{
+    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2a363b;
+    height: auto;
+    width: 100vw;
+  }
+
+  #selectSpot{
+    background-color: #2a363b;
+    color: whitesmoke;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10vh;
+  }
+
+
+ .resteraunt{
+    content: url('./assets/restauranto.png');
+   width: 40vw;
+   height: auto;
+  }
+  .specialty{
+    content: url('./assets/special.png');
+    width: 40vw;
+    height: auto;
+  }
+  .diner{
+    content: url('./assets/diner.png');
+    width: 40vw;
+    height: auto;
+  }
+
+  .Header{
+    background-image: url('./assets/nyc.png');
+    background-size: 100vw;
+    background-position: center;
+   width: auto;
+   height: 100vh;
+  }
+
+  @media(max-width:700px){
+    .specialty{
+      content: url('./assets/special.png');
+      width: 60vw;
+      height: auto;
+    }
+    .diner{
+      content: url('./assets/diner.png');
+      width: 60vw;
+      height: auto;
+    }
+    .resteraunt{
+      content: url('./assets/restauranto.png');
+     width: 60vw;
+     height: auto;
+    }
+
+ .Header h1{
+  position: absolute;
+  margin-top:35vh;
+  color: #fefefe;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Header h2{
+ font-family: 'Lato', sans-serif;
+ position: absolute;
+ margin-top:50vh;
+ color: #fefefe;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+    .address{
+      font-size: 1rem;
+      margin-left:5vw;
+      margin-right: 5vw;
+    }
+
+    .Header{
+      background-image: url('./assets/nyc.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+     width: 100vw;
+     height:100vh;
+    }
+  }
+
+
+  .modal{
+padding-top: 5vh;
+  }
+
+
+  @media(min-width:701px){
+
+    .Header h1{
+      position: absolute;
+      font-size: 4rem;
+      padding-left: 15vw;
+      margin-top:35vh;
+      color: #fefefe;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .Header h2{
+     font-family: 'Lato', sans-serif;
+     padding-left: 25vw;
+     font-size: 3rem;
+     position: absolute;
+     margin-top:50vh;
+     color: #fefefe;
+     margin-left: 10px;
+     margin-right: 10px;
+   }
+
+  }
+

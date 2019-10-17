@@ -1,0 +1,46 @@
+[
+    {
+      "name": "Nicky's Coffee Shop",
+      "address": "3140 Bainbridge Ave, The Bronx, NY 10467",
+      "type": "resteraunt",
+      "menu":"any",
+      "likes": "if you are looking for a casual spot this is for you",
+      "img":"./assets/img.png",
+      "map":"Nicky's+Coffee+Shop+Inc,+Bainbridge+Avenue,+The+Bronx,+NY"
+    },
+    {
+        "name": "Corkey's Dinner",
+        "address": "2537 Grand Concourse, The Bronx, NY 10468",
+        "type": "diner",
+        "menu": "everything",
+        "likes": "if you are looking for a place to enjoy some food after shopping than this is it",
+        "img":"./assets/img.png",
+        "map":"Corky's,+Grand+Concourse,+The+Bronx,+NY"
+    },
+    {
+        "name": "dumplings",
+        "address": "queens",
+        "type": "specialty",
+        "menu": "dumpling and dumpling soup",
+        "likes": "if you like dumplings or want to like them, this spot will do that for you",
+        "img":"./assets/img.png",
+        "map":"2537,Grand+Concourse,The+Bronx,+NY+10468"
+    },
+    {
+        "name": "SmashBurger",
+        "address": "193 W 237th St, The Bronx, NY 10463",
+        "type": "specialty",
+        "menu": "burgers",
+        "likes": "if your vegan than this aint it cheif...",
+        "img":"./assets/img.png",
+        "map":"Smashburger,+193+West+237th+Street,+The+Bronx,+NY"
+    },
+    {
+        "name": "Yama Ramen",
+        "address": " 60 W 48th St, New York, NY 10036",
+        "type": "resteraunt",
+        "menu": "They serve sushi, rolls, ramen and Japanese style rice bowls",
+        "likes": "its just amazing!",
+        "img":"./assets/img.png",
+        "map":"Yama+Ramen,+West+48th+Street,+New+York,+NY"
+    }]
